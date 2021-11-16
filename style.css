@@ -1,0 +1,114 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+#exampleModal{
+  color:black !important;
+}
+#toggleLogin{
+  padding-right: 15px;
+}
+#loginAlert{
+  display : none;
+}
+#gap{
+  width:100%;
+  height:30px;
+}
+
+.toggleFollow{
+  color:blue !important;
+}
+.comments{
+  color:blue !important;
+  position: relative;
+  left:10px;
+}
+.com{
+  position: fixed;
+  width:260px;
+}
+#tweetSucess{
+  display:none;
+
+}
+.rightdisplay{
+    position: fixed;
+}
+.back{
+  margin-top: 45px !important;
+  padding-top: 35px !important;
+  padding-bottom: 30px !important;
+}
+#tweetFail{
+  display:none ;
+}
+#displaySearch{
+  margin-top: 45px !important;
+}
+
+.time{
+    color: lightgrey;
+}
+.tweet{
+    border:1px solid #696969;
+    border-radius:7px;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin:1px;
+    background: rgb(45,45,51);
+background: linear-gradient(90deg, rgba(45,45,51,1) 32%, rgba(78,75,87,1) 61%, rgba(93,95,101,1) 82%);
+
+}
+.comment_user{
+    border : 1px solid lightgrey;
+    border-radius:5px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-right: 10px;
+    margin-bottom: 4px;
+}
+#userinfo{
+  color : white !important;
+}
+#backtoprofile{
+    position: relative;
+    left:400px;
+}
+#editProfile{
+    display:none ;
+}
+.tweet_user_name{
+  color:#FFFFFF !important;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.container_border{
+  width:1300px !important;
+}
+.bg_color_other{
+  background-color:#15212C  !important;
+}
+body {
+  margin-bottom: 60px;
+  background-color:#15212C !important;
+   background: rgb(0,2,36);
+   background-image: url(paper.jpg);
+   background-size: 960px 700px;
+   background-attachment: fixed !important;
+
+  color:#FFFFFF !important;/* Margin bottom by footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
